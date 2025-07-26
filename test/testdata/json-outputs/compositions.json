@@ -1,0 +1,59 @@
+{
+  "output_format": "mp4",
+  "width": 1280,
+  "height": 720,
+  "duration": 5,
+  "elements": [
+    {
+      "type": "composition",
+      "elements": [
+        {
+          "type": "image",
+          "source": "https://creatomate-static.s3.amazonaws.com/demo/image1.jpg"
+        },
+        {
+          "type": "text",
+          "width": "100%",
+          "height": "10%",
+          "text": "Place elements in the same composition to group them",
+          "background_color": "#fff",
+          "background_x_padding": "25%",
+          "background_y_padding": "25%",
+          "background_border_radius": "20%",
+          "background_align_threshold": "0%",
+          "x_alignment": "50%"
+        }
+      ],
+      "width": [
+        {
+          "time": 1,
+          "value": "100%"
+        },
+        {
+          "time": 3,
+          "value": "50%"
+        }
+      ],
+      "height": [
+        {
+          "time": 3,
+          "value": "100%"
+        },
+        {
+          "time": 4,
+          "value": "50%"
+        }
+      ],
+      "y_rotation": [
+        {
+          "time": 4,
+          "value": 0
+        },
+        {
+          "time": 5,
+          "value": 360
+        }
+      ]
+    }
+  ]
+}

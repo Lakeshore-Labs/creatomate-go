@@ -1,0 +1,16 @@
+{
+  "output_format": "mp4",
+  "width": 1920,
+  "height": 1080,
+  "duration": 10,
+  "frame_rate": 30,
+  "elements": [
+    {
+      "type": "video",
+      "source": "https://example.com/video.mp4",
+      "duration": "media",
+      "volume": "50%",
+      "fit": "cover"
+    }
+  ]
+}

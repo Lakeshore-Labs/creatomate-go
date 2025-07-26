@@ -1,0 +1,110 @@
+{
+  "output_format": "mp4",
+  "width": 1280,
+  "height": 720,
+  "duration": 4,
+  "elements": [
+    {
+      "type": "shape",
+      "width": "23.5227%",
+      "height": "41.8179%",
+      "x_scale": [
+        {
+          "time": 0,
+          "value": "20%"
+        },
+        {
+          "time": 2,
+          "easing": "elastic-out",
+          "value": "100%"
+        }
+      ],
+      "y_scale": [
+        {
+          "time": 0,
+          "value": "20%"
+        },
+        {
+          "time": 2,
+          "easing": "elastic-out",
+          "value": "100%"
+        }
+      ],
+      "z_rotation": [
+        {
+          "time": 0,
+          "value": -90
+        },
+        {
+          "time": 2,
+          "easing": "elastic-out",
+          "value": 0
+        }
+      ],
+      "fill_color": [
+        {
+          "time": 0,
+          "value": "#333333"
+        },
+        {
+          "time": 0.94,
+          "value": "#0079ff"
+        },
+        {
+          "time": 2,
+          "value": "#0079ff"
+        },
+        {
+          "time": 2.5,
+          "value": "rgba(0,121,255,0)"
+        }
+      ],
+      "stroke_color": "rgba(0,121,255,1)",
+      "stroke_width": [
+        {
+          "time": 2,
+          "value": "0 vmin"
+        },
+        {
+          "time": 2.5,
+          "value": "4.3 vmin"
+        },
+        {
+          "time": 3.5,
+          "value": "0 vmin"
+        }
+      ],
+      "stroke_start": [
+        {
+          "time": 2.5,
+          "value": "0%"
+        },
+        {
+          "time": 3.5,
+          "value": "100%"
+        }
+      ],
+      "stroke_offset": [
+        {
+          "time": 2.5,
+          "value": "0%"
+        },
+        {
+          "time": 3.5,
+          "value": "50%"
+        }
+      ],
+      "path": [
+        {
+          "time": 0.94,
+          "value": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z"
+        },
+        {
+          "time": 2.5,
+          "easing": "elastic-out",
+          "value": "M -20 -20 C 15 -55 85 -55 120 -20 C 155 15 155 85 120 120 C 85 155 15 155 -20 120 C -55 85 -55 15 -20 -20 Z"
+        }
+      ]
+    }
+  ]
+}
